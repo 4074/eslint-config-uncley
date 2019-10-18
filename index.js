@@ -5,8 +5,7 @@ module.exports = {
     plugins: ['prettier'],
     extends: [
         'airbnb',
-        'prettier',
-        'plugin:react/recommended'
+        'prettier'
     ],
     env: {
         browser: true,
@@ -24,7 +23,6 @@ module.exports = {
     rules: {
         'prettier/prettier': ['error', prettierConfig],
 
-        'indent': ['error', 4],
         'consistent-return': 'off',
         'max-classes-per-file': ['error', 2],
 

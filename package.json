@@ -1,11 +1,8 @@
 {
   "name": "eslint-config-uncley",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "ESLint Config of Netease/GUX/Uncle-Y",
-  "main": "src/index.js",
-  "files": [
-    "src"
-  ],
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
