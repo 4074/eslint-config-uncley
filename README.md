@@ -58,3 +58,10 @@ With vscode, modify the settings.json
     ]
 }
 ```
+
+If you want eslint on git `pre-commit`, install `lint-staged`.
+
+```
+npm install --save-dev lint-staged@next
+npx mrm lint-staged
+```
