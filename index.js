@@ -23,9 +23,10 @@ module.exports = {
     rules: {
         'prettier/prettier': ['error', prettierConfig],
 
+        // Off rules
         'consistent-return': 'off',
-        'max-classes-per-file': ['error', 2],
 
+        'no-continue': 'off',
         'no-restricted-globals': 'off',
         'no-restricted-syntax': 'off',
         'no-underscore-dangle': 'off',
@@ -33,5 +34,9 @@ module.exports = {
         'import/no-unresolved': 'off',
         'import/no-cycle': 'off',
         'import/prefer-default-export': 'off',
-    }
+
+        // Warn rules
+        'max-classes-per-file': 'warn',
+    },
+    root: true
 }
