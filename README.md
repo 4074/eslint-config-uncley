@@ -15,7 +15,7 @@ npm i -D eslint babel-eslint prettier eslint-config-airbnb eslint-config-prettie
 For Typescript
 
 ```
-// Coming soon.
+npm i -D eslint babel-eslint prettier eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
 Install this config
@@ -30,7 +30,8 @@ Add ESLint config file  `.eslintrc.js`
 module.exports = {
     extends: [
         'uncley',
-        'uncley/react' // Using it f you using react.
+        'uncley/react' // Using if you using react.
+        'uncley/typescript' // Using if you using typescript.
     ],
     rules: [
         // Write custom rules here.
