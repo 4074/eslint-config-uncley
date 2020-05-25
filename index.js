@@ -37,6 +37,17 @@ module.exports = {
 
         // Warn rules
         'max-classes-per-file': 'warn',
+
+        'import/extensions': [
+            'error',
+            'ignorePackages',
+            {
+                'js': 'never',
+                'jsx': 'never',
+                'ts': 'never',
+                'tsx': 'never'
+            }
+        ]
     },
     root: true
 }

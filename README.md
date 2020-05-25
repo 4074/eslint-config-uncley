@@ -43,20 +43,14 @@ With vscode, modify the settings.json
 ```
 {
     "editor.formatOnSave": false,
-    "eslint.autoFixOnSave": true,
+    "editor.tabSize": 4,
     "eslint.trace.server": "messages",
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        {
-            "language": "typescript",
-            "autoFix": true
-        },
-        {
-            "language": "typescriptreact",
-            "autoFix": true
-        }
-    ]
+    "eslint.workingDirectories": [
+        "./app", "./server"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }
 ```
 

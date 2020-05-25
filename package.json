@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/4074/eslint-config-uncley.git"
   },
-  "keywords": ["eslint", "config", "uncley", "uncle-y"],
+  "keywords": [
+    "eslint",
+    "config",
+    "uncley",
+    "uncle-y"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
